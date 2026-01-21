@@ -169,3 +169,34 @@ No. This assignment is only for the hiring process and will not be used commerci
 If you have any additional doubts, feel free to reach out at: `developer@camonk.com`.
 
 Good luck! 🚀
+
+
+
+---
+
+## What I Implemented
+
+- Blog List view with loading skeletons
+- Blog Detail view showing cover image, full content, and categories
+- Header and Banner components
+- Styled using **shadcn/ui** components and **Tailwind CSS**
+- Data fetching handled with **TanStack Query**
+- Error handling and loading states implemented
+- Responsive design
+- Implemeted the post functionality where we can post blogs as well
+
+## Project Structure
+src/
+├─ api/           # API calls (getBlogs, createBlog)
+├─ components/    # UI components (Header, Banner, BlogList, BlogDetail)
+├─ types/         # TypeScript interfaces
+├─ App.tsx        # Main app layout
+└─ main.tsx       # React entry point
+
+# Screenshots
+
+Overview of the Blog Application
+![alt text](image-2.png)
+
+Overview of Posting Blog
+![alt text](image-1.png)
